@@ -7,5 +7,3 @@ def twoSum(self, nums: List[int], target) -> List[int]:
             if(nums[i] + nums[j] == target):
                 ans.extend([i, j])
     return ans
-
-print(twoSum(None, [3,2,4], 6))
